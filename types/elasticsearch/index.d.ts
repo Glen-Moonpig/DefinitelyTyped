@@ -1579,6 +1579,7 @@ export interface SnapshotGetParams extends GenericParams {
     ignoreUnavailable?: boolean;
     repository: string;
     snapshot: NameList;
+    verbose?: boolean;
 }
 
 export interface SnapshotGetRepositoryParams extends GenericParams {
